@@ -26,3 +26,8 @@ A pivot table was created with anime_id as columns and user_id as rows and the r
 ### Content-Based Recommendations
 
 Content Based Recommendations does not usually depend on the ratings. It's where we use the dedscription of the item to group similar items and recommend them. This can be done by creating a bag of words representation of the feature that we are going to use to group the items. In this case, It is the Genre. Then, we again find the similarity using genre matches and then recommend a similar movie.
+
+### Neural Collaborative Filtering
+
+In this type of recommender system, A neural network with embedding layers for both item and user is created and the values for these matrix is learned through training. Then, the 
+entire neural network could be used to predict the user's likeability towards an Item. Sometimes, people use matrix factorization layer and concatenate it's result with the embedding layer outputs. But, In this project, I have only used the 2 embedding layers of the users and anime as the cornerstone.
