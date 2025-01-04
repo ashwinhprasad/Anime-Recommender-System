@@ -9,6 +9,7 @@ Currently contains:
 1. Non-Personal Recommendations
 2. Item-Item Nearest Neighbor Collaborative Filtering
 3. Content-Based Recommendations
+4. Neural Collaborative Filtering
 
 Download the Dataset from [here](https://www.kaggle.com/CooperUnion/anime-recommendations-database)
 
